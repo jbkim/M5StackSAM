@@ -1,3 +1,5 @@
+#include <WiFi.h> 
+
 String getWiFiMac() {
   uint8_t baseMac[6];
   esp_read_mac(baseMac, ESP_MAC_WIFI_STA);
