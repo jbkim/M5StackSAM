@@ -1,4 +1,4 @@
-#include <WiFi.h> 
+#include <WiFi.h> // Added to reslve compile error
 
 String getWiFiMac() {
   uint8_t baseMac[6];
